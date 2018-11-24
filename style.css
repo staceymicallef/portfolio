@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Warnes', sans-serif;
+  font-size: 1.2rem;
+}
+
+header {
+  min-height: 100vh;
+  background-color: #696969;
+  color: white;
+}
+
+nav {
+  background-color: rgb(51,48,45);
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline-block;
+  padding: .3rem 1rem .3rem 1rem;
+}
+
+header main {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+header img {
+width: 100%;
+}
+
+.about-me {
+  padding: 4rem 0;
+  line-height: 1.4;
+}
+
+.content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.projects {
+  padding: 4rem 0;
+  background-color: #f6f6f6
+}
+
+.projects img {
+  width: 30%;
+  padding: 10px 10px 10px 0;
+}
